@@ -19,8 +19,8 @@ return [
             "lang" => "sv",
             "stylesheets" => [
                 // Change here to set another default stylesheet
-                "css/dbwebb-se.min.css",
-                //"css/kmom01.css",
+                "css/kmom02.css",
+                //"css/kmom02.css",
             ],
             "javascripts" => [
                 "js/responsive-menu.js",
@@ -46,7 +46,7 @@ return [
                 "homeLink"      => "",
                 "siteLogoText"  => "design",
                 "siteLogoTextIcon" => "image/theme/home.jpeg",
-                "siteLogoTextIconAlt" => "Hemknapp Hus",
+                "siteLogoTextIconAlt" => "Fotboll hemknapp",
             ],
         ],
         [

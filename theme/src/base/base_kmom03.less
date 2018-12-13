@@ -1,0 +1,75 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: #424242;
+@bgColorBody: #A9847B;
+@colorBody: #333;
+@fontFamilyBody: serif;
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: @colorBody;
+    background-color: @bgColorBody;
+    font: 100.01%/1 @fontFamilyBody;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    overflow-y: scroll;
+    background-color: #424242;
+}
+
+head {
+    display: none;
+}
+
+article {
+    margin-bottom: 72px;
+}
+
+h1 {
+    font-size: 2.375em;
+    line-height: 1.26315789;
+    font-weight: 400;
+    border-bottom: 1px solid #666;
+    margin-bottom: 23px;
+}
+
+h4 {
+    font-size: 1.25em;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Cambria,Georgia,Times,'Times New Roman',serif;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+p {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+article,
+aside,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+    display: block;
+}

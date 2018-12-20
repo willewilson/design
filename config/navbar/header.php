@@ -6,7 +6,11 @@ return [
     // Use for styling the menu
     "wrapper" => null,
     "class" => "my-navbar rm-default rm-desktop",
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> jaha
     // Here comes the menu items
     "items" => [
         [
@@ -15,11 +19,14 @@ return [
             "title" => "Första sidan, börja här.",
         ],
         [
+<<<<<<< HEAD
             "text" => "Test",
             "url" => "test",
             "title" => "Testsida för markdown.",
         ],
         [
+=======
+>>>>>>> jaha
             "text" => "Redovisning",
             "url" => "redovisning",
             "title" => "Redovisningstexter från kursmomenten.",

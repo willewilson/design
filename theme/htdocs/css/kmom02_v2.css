@@ -1,6 +1,16 @@
 /*!
  * LESS version of the stylesheet for design kmom02.
  *
+ * This stylesheet is for the design course and kmom01. Its intention is to
+ * use kmom02.css and lessify the style and use this as a wrapper for the new
+ * style.
+ */
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+/*!
+ * LESS version of the stylesheet for design kmom02.
+ *
  * This stylesheet is for the design course and kmom02. Its intention is to
  * use kmom01.css and lessify the style and use this as a wrapper for the new
  * style.
@@ -326,35 +336,13 @@ html {
   overflow-y: scroll;
   background-color: #424242;
 }
-<<<<<<< HEAD
-
-=======
 body {
   margin: 0;
   padding: 0;
   color: #333;
-  background-color: #A9847B;
+  background-color: #fff;
   font: 100.01%/1 serif;
 }
->>>>>>> jaha
-/**
- * Base style to affect HTML elements on a general scale.
- */
-html {
-  overflow-y: scroll;
-  background-color: #424242;
-}
-<<<<<<< HEAD
-
-=======
-body {
-  margin: 0;
-  padding: 0;
-  color: #333;
-  background-color: #A9847B;
-  font: 100.01%/1 serif;
-}
->>>>>>> jaha
 * {
   box-sizing: border-box;
 }
@@ -367,16 +355,6 @@ html {
 head {
   display: none;
 }
-<<<<<<< HEAD
-body {
-  margin: 0;
-  padding: 0;
-  color: #111;
-  background-color: #A9847B;
-  font: 100.01%/1.5 Verdana, Geneva, sans-serif;
-}
-=======
->>>>>>> jaha
 article {
   margin-bottom: 72px;
 }
@@ -405,10 +383,6 @@ h6 {
 p {
   margin-top: 24px;
   margin-bottom: 24px;
-<<<<<<< HEAD
-=======
-  background-color: white;
->>>>>>> jaha
 }
 article,
 aside,
@@ -424,28 +398,6 @@ section {
  * Layout style for general structure of header, navbar, main, footer
  * and other regions of the page including route specific styles.
  */
-/**
- * Layout style for general structure of header, navbar, main, footer
- * and other regions of the page including route specific styles.
- */
-/**
- * Variables
- */
-/**
- * General layout
- */
-.inner-wrap {
-  max-width: 1100px;
-  margin: 0 auto;
-}
-/**
- * Layout for responsive style through media queries.
- */
-@media screen and (max-width: 1500px) {
-  .site-logo {
-    display: none;
-  }
-}
 /**
  * Layout style for general structure of header, navbar, main, footer
  * and other regions of the page including route specific styles.
@@ -479,13 +431,11 @@ section {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  background-color: #ab8479;
 }
 .outer-wrap-footer {
-<<<<<<< HEAD
-  background-color: #764F46;
-=======
   background-color: #424242;
->>>>>>> jaha
+  background-image: linear-gradient(#aa847a, #523333);
   padding-top: 24px;
   padding-bottom: 48px;
 }
@@ -498,6 +448,8 @@ section {
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
+  background-color: #b19494;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .inner-wrap-header {
   max-width: none;
@@ -507,6 +459,7 @@ section {
 }
 .inner-wrap-main {
   padding-bottom: 48px;
+  background-color: #aa847a;
 }
 .row {
   display: block;
@@ -554,6 +507,8 @@ section {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  background-color: #424242;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .column {
   height: 100%;
@@ -729,9 +684,10 @@ a.rm-button {
 img {
   max-width: 100%;
   border-style: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
 a {
-  color: #33b;
+  color: black;
   text-decoration: underline;
 }
 a {
@@ -788,6 +744,9 @@ figure.figure figcaption p {
   color: #aaa;
   text-align: center;
   padding-bottom: 24px;
+}
+.region-breadcrumb {
+  background-color: #A9847B;
 }
 /**
  * Layout for responsive style through media queries.
@@ -881,36 +840,15 @@ figure.figure figcaption p {
     display: none;
   }
 }
-/**
- * Show off the regions used in the website, to ease styling.
- */
-.regions .outer-wrap {
-  background-color: #f4e3c9;
-  border: 1px solid #e3b774;
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 20px;
+  }
 }
-.regions .inner-wrap {
-  background-color: #f4e0e9;
-  border: 1px solid #d995b4;
-}
-.regions .region-header-col-1,
-.regions .region-header-col-2,
-.regions .region-header-col-3,
-.regions .region-flash,
-.regions .region-breadcrumb,
-.regions .region-flash-message,
-.regions .region-columns-above,
-.regions .region-main,
-.regions .region-after-main,
-.regions .region-columns-below,
-.regions .region-sidebar-left,
-.regions .region-sidebar-right,
-.regions .region-footer,
-.regions .region-footer-column-1,
-.regions .region-footer-column-2,
-.regions .region-footer-column-3 {
-  background-color: #b5dce1;
-  border: 1px solid #6cbac4;
-  color: #111;
+@media screen and (max-width: 600px) {
+  .region-footer {
+    display: none;
+  }
 }
 /**
  * My own settings, not currently in their own module.
@@ -933,7 +871,7 @@ figure.figure figcaption p {
   font-style: normal;
   font-variant: normal;
   text-rendering: auto;
-  line-height: 1;
+  line-height: 25%;
 }
 /* makes the font 33% larger relative to the icon container */
 .fa-lg {
@@ -5165,3 +5103,89 @@ a.rm-button.rm-clicked .rm-button-face-2 {
     display: none;
   }
 }
+/**
+ * Style for the stylechooser.
+ */
+/**
+ * Variables
+ */
+/**
+ * Style
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+html {
+  overflow-y: scroll;
+  background-color: #424242;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #fff;
+  font: 100.01%/1 serif;
+}
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Variables
+ */
+/**
+ * General layout
+ */
+.inner-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+/**
+ * Layout for responsive style through media queries.
+ */
+@media screen and (max-width: 1500px) {
+  .site-logo {
+    display: none;
+  }
+}
+/**
+ * Show off the regions used in the website, to ease styling.
+ */
+.regions .outer-wrap {
+  background-color: #f4e3c9;
+  border: 1px solid #e3b774;
+}
+.regions .inner-wrap {
+  background-color: #f4e0e9;
+  border: 1px solid #d995b4;
+}
+.regions .region-header-col-1,
+.regions .region-header-col-2,
+.regions .region-header-col-3,
+.regions .region-flash,
+.regions .region-breadcrumb,
+.regions .region-flash-message,
+.regions .region-columns-above,
+.regions .region-main,
+.regions .region-after-main,
+.regions .region-columns-below,
+.regions .region-sidebar-left,
+.regions .region-sidebar-right,
+.regions .region-footer,
+.regions .region-footer-column-1,
+.regions .region-footer-column-2,
+.regions .region-footer-column-3 {
+  background-color: #b5dce1;
+  border: 1px solid #6cbac4;
+  color: #111;
+}
+/**
+ * My own settings, not currently in their own module.
+ */

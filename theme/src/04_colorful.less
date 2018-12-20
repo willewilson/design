@@ -1,0 +1,60 @@
+@import "kmom04_v2.less";
+
+@backgroundColor: #00ae1b;
+@textColor: #ffffff;
+@fontFamilyBody: monospace;
+@backgroundColorGradient: radial-gradient(#00a1c1, #f34f0b, #00ae1b);
+@backgroundColorMenu: radial-gradient(#f34f0b, #00a1c1, #f34f0b);
+@textHoverColor: #00a1c1;
+
+
+body {
+    background-image: @backgroundColorGradient;
+    color: @textColor;
+}
+
+.outer-wrap-footer {
+    background-image: @backgroundColor;
+}
+
+.site-footer {
+    color: @textColor;
+}
+
+.site-logo-text a,
+a {
+    color: @textColor;
+}
+
+.inner-wrap-footer {
+    background-color: @backgroundColor;
+}
+
+.inner-wrap.inner-wrap-header {
+    background-color: @backgroundColor;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.8), 0 10px 20px 0 rgba(0,0,0,.19);
+    margin-top: 0.5em;
+}
+
+.site-logo-text-icon img:hover {
+    transform: scale(1.1);
+    color: @textHoverColor;
+}
+
+.region-sidebar-left, .region-sidebar-right {
+    background-image: @backgroundColor;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.8), 0 10px 20px 0 rgba(0,0,0,.19);
+}
+
+a:-webkit-any-link:hover {
+    color: @textHoverColor;
+    transform: scale(1.1);
+}
+
+.region-footer {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}

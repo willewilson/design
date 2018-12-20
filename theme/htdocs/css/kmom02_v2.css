@@ -383,6 +383,7 @@ h6 {
 p {
   margin-top: 24px;
   margin-bottom: 24px;
+  background-color: white;
 }
 article,
 aside,
@@ -684,6 +685,9 @@ a.rm-button {
 img {
   max-width: 100%;
   border-style: none;
+}
+a {
+  color: #33b;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
 a {
@@ -871,6 +875,7 @@ figure.figure figcaption p {
   font-style: normal;
   font-variant: normal;
   text-rendering: auto;
+  line-height: 1;
   line-height: 25%;
 }
 /* makes the font 33% larger relative to the icon container */

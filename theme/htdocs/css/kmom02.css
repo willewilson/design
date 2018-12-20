@@ -330,7 +330,7 @@ body {
   margin: 0;
   padding: 0;
   color: #333;
-  background-color: yellow;
+  background-color: #003097;
   font: 100.01%/1 serif;
 }
 /**
@@ -344,7 +344,7 @@ body {
   margin: 0;
   padding: 0;
   color: #333;
-  background-color: yellow;
+  background-color: #003097;
   font: 100.01%/1 serif;
 }
 * {
@@ -358,13 +358,6 @@ html {
 }
 head {
   display: none;
-}
-body {
-  margin: 0;
-  padding: 0;
-  color: #111;
-  background-color: #fff;
-  font: 100.01%/1.5 Verdana, Geneva, sans-serif;
 }
 article {
   margin-bottom: 72px;
@@ -465,9 +458,11 @@ section {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  background-color: #ab8479;
 }
 .outer-wrap-footer {
   background-color: #424242;
+  background-image: linear-gradient(#aa847a, #523333);
   padding-top: 24px;
   padding-bottom: 48px;
 }
@@ -480,6 +475,8 @@ section {
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
+  background-color: #b19494;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .inner-wrap-header {
   max-width: none;
@@ -489,6 +486,7 @@ section {
 }
 .inner-wrap-main {
   padding-bottom: 48px;
+  background-color: #aa847a;
 }
 .row {
   display: block;
@@ -536,6 +534,8 @@ section {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  background-color: #424242;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .column {
   height: 100%;
@@ -714,6 +714,10 @@ img {
 }
 a {
   color: #33b;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+a {
+  color: black;
   text-decoration: underline;
 }
 a {
@@ -770,6 +774,9 @@ figure.figure figcaption p {
   color: #aaa;
   text-align: center;
   padding-bottom: 24px;
+}
+.region-breadcrumb {
+  background-color: #A9847B;
 }
 /**
  * Layout for responsive style through media queries.
@@ -863,6 +870,16 @@ figure.figure figcaption p {
     display: none;
   }
 }
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .region-footer {
+    display: none;
+  }
+}
 /**
  * Show off the regions used in the website, to ease styling.
  */
@@ -916,6 +933,7 @@ figure.figure figcaption p {
   font-variant: normal;
   text-rendering: auto;
   line-height: 1;
+  line-height: 25%;
 }
 /* makes the font 33% larger relative to the icon container */
 .fa-lg {

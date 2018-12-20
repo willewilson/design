@@ -10,7 +10,7 @@ views:
                 type: single
                 route: block/byline
 ...
-Williams me-sida i kursen design
+Williams Me-sida i kursen design
 =========================
 
 Välkommen till min Me-sida!

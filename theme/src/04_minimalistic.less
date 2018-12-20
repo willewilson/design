@@ -1,0 +1,58 @@
+@import "kmom04_v2.less";
+
+@backgroundColor: #fff;
+@textColor: black;
+@fontFamilyBody: Times, "Times New Roman", serif;
+@backgroundColorGradient: radial-gradient(#333, #191010, #2d2a2a);
+@backgroundColorMenu: #f1f1f1;
+
+
+body {
+    background-image: @backgroundColor;
+    color: @textColor;
+}
+
+.outer-wrap-footer {
+
+    background-color: @backgroundColorMenu;
+
+}
+
+.site-footer {
+    color: @textColor;
+}
+
+a {
+    color: @textColor;
+}
+
+.inner-wrap-footer {
+    background-color: @backgroundColor;
+}
+
+.inner-wrap.inner-wrap-header {
+    background-color: @backgroundColorMenu;
+}
+
+img {
+    //box-shadow: 0 4px 8px 0 rgba(0,0,0,.8), 0 10px 20px 0 rgba(0,0,0,.19);
+    margin-top: 0.5em;
+}
+
+.site-logo-text-icon img:hover {
+    transform: scale(1.1);
+}
+
+.region-sidebar-left, .region-sidebar-right {
+    background-color: @backgroundColorMenu;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    color: black;
+}
+
+a:-webkit-any-link:hover {
+    color: grey;
+}

@@ -18,14 +18,9 @@ return [
             "htmlClass" => null,
             "lang" => "sv",
             "stylesheets" => [
-                // Change here to set another default stylesheet.
-<<<<<<< HEAD
-                "css/kmom02.css",
+                // Change here to set another default stylesheet
+                "css/04_dark.css",
                 //"css/kmom02.css",
-=======
-                //"css/dbwebb-se.min.css",
-                "css/kmom03.css",
->>>>>>> jaha
             ],
             "javascripts" => [
                 "js/responsive-menu.js",
@@ -40,13 +35,8 @@ return [
             "template" => "anax/v2/header/site_logo",
             "data" => [
                 "class" => "large",
-<<<<<<< HEAD
                 "siteLogo"      => "",
                 "siteLogoAlt"   => "",
-=======
-                "siteLogo"      => "image/theme/leaf_256x256.png",
-                "siteLogoAlt"   => "Löv",
->>>>>>> jaha
             ],
         ],
         [
@@ -55,13 +45,8 @@ return [
             "data" => [
                 "homeLink"      => "",
                 "siteLogoText"  => "design",
-<<<<<<< HEAD
-                "siteLogoTextIcon" => "image/theme/home.jpeg",
+                "siteLogoTextIcon" => "image/theme/leaf_64x64.png",
                 "siteLogoTextIconAlt" => "Fotboll hemknapp",
-=======
-                "siteLogoTextIcon" => "image/theme/leaf_40x40.png",
-                "siteLogoTextIconAlt" => "Löv-bild",
->>>>>>> jaha
             ],
         ],
         [

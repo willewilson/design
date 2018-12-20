@@ -1,0 +1,77 @@
+@import "kmom04_v2.less";
+
+@backgroundColor: #333;
+@textColor: #2ecc40;
+@fontFamilyBody: monospace;
+@backgroundColorGradient: radial-gradient(#333, #191010, #2d2a2a);
+@backgroundColorMenu: radial-gradient(#191010, #333, #2d2a2a);
+
+
+body {
+    background-image: @backgroundColorGradient;
+    color: @textColor;
+}
+
+.outer-wrap-footer {
+
+    background-image: @backgroundColor;
+
+}
+
+.site-footer {
+    color: @backgroundColor;
+}
+
+.site-logo-text a,
+a {
+    color: @textColor;
+}
+
+.site-logo-text {
+    font-family: @fontFamilyBody;
+}
+
+.inner-wrap-footer {
+    background-image: @backgroundColorGradient;
+}
+
+.inner-wrap.inner-wrap-header {
+    background-image: @backgroundColorGradient;
+}
+
+img {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.8), 0 10px 20px 0 rgba(0,0,0,.19);
+    margin-top: 0.5em;
+}
+
+.site-logo-text-icon img:hover {
+    transform: scale(1.1);
+    color: white;
+}
+
+.rm-desktop li a:hover {
+    transform: scale(1.1);
+    color: white;
+}
+
+.region-sidebar-left, .region-sidebar-right {
+    background-color: #211a1a;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.8), 0 10px 20px 0 rgba(0,0,0,.19);
+}
+
+a:-webkit-any-link:hover {
+    color: white;
+    transform: scale(1.1);
+}
+
+.region-footer {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: @fontFamilyBody;
+}
+
+.rm-mobile {
+    color: @textColor;
+}

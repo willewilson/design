@@ -3,13 +3,10 @@ Revision History
 
 
 
-
-=======
 v1.1.3 (2018-12-03)
 ------------------------
 
 * Add mixin .showGridAlt(@gridColor) that draws a flexible background image to show the grid, without the need of a grid image.
-
 
 
 

@@ -7,9 +7,6 @@ Desinax Figure (LESS)
 [![Build Status](https://travis-ci.org/desinax/figure.svg?branch=master)](https://travis-ci.org/desinax/figure)
 [![CircleCI](https://circleci.com/gh/desinax/figure.svg?style=svg)](https://circleci.com/gh/desinax/figure)
 
-
-LESS/SASS module for figure element and image presentation.
-=======
 LESS module for styling the html elements `<figure>` and `<figcaption>` with images and image text and neabling css-classes to have images spread over the whol text area or float left/right.
 
 The module also includes styling related to figures encapsulating asciinema and codepen objects.
@@ -44,33 +41,22 @@ Viewing this documentation on GitHub Pages makes it easier to both read this doc
 
 
 
-
 Install
 -------------------------------
 
-
-You can install using npm.
-=======
 You can install using npm to take advantage of version management. Semantic versioning is used to label the various versions.
-
 
 ```text
 npm install @desinax/figure
 ```
 
-
-=======
 Or clone this repo and use it as is.
-
 
 
 
 Usage
 -------------------------------
 
-
-You can review example usage HTML with generated CSS-files in the directory `htdocs/`. Open your browser to that directory and look around in the available files.
-=======
 The grid consists of a set of namespaced mixins which you need to include and activate into your own stylesheet.
 
 
@@ -266,7 +252,6 @@ License
 -------------------------------
 
 The license is MIT, review it in [LICENSE](LICENSE).
-
 
 
 

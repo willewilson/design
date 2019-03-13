@@ -2,8 +2,6 @@ Revision History
 =======================
 
 
-
-=======
 v1.1.0 (2018-12-03)
 ------------------------
 
@@ -13,7 +11,6 @@ v1.1.0 (2018-12-03)
 * Added README for documentation.
 * Added examples in htdocs/.
 * Published on GitHub pages.
-
 
 
 

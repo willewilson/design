@@ -676,7 +676,6 @@ ul {
 a.rm-button {
   display: inline-block;
   color: inherit;
-  background-color: transparent;
   outline: 0;
 }
 .rm-desktop li .rm-submenu-button {

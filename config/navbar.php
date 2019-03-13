@@ -22,5 +22,10 @@ return [
         "text" => "About",
         "url" => "about",
         "title" => "About this site.",
+    ],
+    [
+        "text" => "About",
+        "url" => "about",
+        "title" => "About this site.",
     ]
 ];

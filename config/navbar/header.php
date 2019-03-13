@@ -15,11 +15,6 @@ return [
             "title" => "Första sidan, börja här.",
         ],
         [
-            "text" => "Test",
-            "url" => "test",
-            "title" => "Testsida för markdown.",
-        ],
-        [
             "text" => "Redovisning",
             "url" => "redovisning",
             "title" => "Redovisningstexter från kursmomenten.",
@@ -40,6 +35,11 @@ return [
                         "url" => "redovisning/kmom03",
                         "title" => "Redovisning för kmom03.",
                     ],
+                    [
+                        "text" => "Kmom04",
+                        "url" => "redovisning/kmom04",
+                        "title" => "Redovisning för kmom04.",
+                    ],
                 ],
             ],
         ],
@@ -49,14 +49,47 @@ return [
             "title" => "Om denna webbplats.",
         ],
         [
-            "text" => "Styleväljare",
-            "url" => "style",
-            "title" => "Välj stylesheet.",
+            "text" => "Rapporter",
+            "url" => "rapport/index",
+            "title" => "Rapporttexter.",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Färgschema",
+                        "url" => "rapport/färgschema",
+                        "title" => "Färgschema",
+                    ],
+                ],
+            ],
         ],
         [
-            "text" => "Verktyg",
-            "url" => "verktyg",
-            "title" => "Verktyg och möjligheter för utveckling.",
+            "text" => "Övrigt",
+            "url" => "övrigt",
+            "title" => "Övrigt.",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Styleväljare",
+                        "url" => "style",
+                        "title" => "Välj stylesheet.",
+                    ],
+                    [
+                        "text" => "Verktyg",
+                        "url" => "verktyg",
+                        "title" => "Verktyg och möjligheter för utveckling.",
+                    ],
+                    [
+                        "text" => "Test",
+                        "url" => "test",
+                        "title" => "Testsida för markdown.",
+                    ],
+                    [
+                        "text" => "Blogg",
+                        "url" => "blogg",
+                        "title" => "Bildblogg.",
+                    ],
+                ],
+            ],
         ],
     ],
 ];

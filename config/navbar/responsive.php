@@ -7,7 +7,7 @@ return [
     "id" => "rm-menu",
     "wrapper" => null,
     "class" => "rm-default rm-mobile",
- 
+
     // Here comes the menu items
     "items" => [
         [
@@ -31,6 +31,16 @@ return [
                         "url" => "redovisning/kmom02",
                         "title" => "Redovisning för kmom02.",
                     ],
+                    [
+                        "text" => "Kmom03",
+                        "url" => "redovisning/kmom03",
+                        "title" => "Redovisning för kmom03.",
+                    ],
+                    [
+                        "text" => "Kmom04",
+                        "url" => "redovisning/kmom04",
+                        "title" => "Redovisning för kmom04.",
+                    ],
                 ],
             ],
         ],
@@ -40,14 +50,47 @@ return [
             "title" => "Om denna webbplats.",
         ],
         [
-            "text" => "Styleväljare",
-            "url" => "style",
-            "title" => "Välj stylesheet.",
+            "text" => "Rapporter",
+            "url" => "rapport/index",
+            "title" => "Rapporttexter.",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Färgschema",
+                        "url" => "rapport/färgschema",
+                        "title" => "Färgschema",
+                    ],
+                ],
+            ],
         ],
         [
-            "text" => "Verktyg",
-            "url" => "verktyg",
-            "title" => "Verktyg och möjligheter för utveckling.",
+            "text" => "Övrigt",
+            "url" => "övrigt",
+            "title" => "Övrigt.",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Styleväljare",
+                        "url" => "style",
+                        "title" => "Välj stylesheet.",
+                    ],
+                    [
+                        "text" => "Verktyg",
+                        "url" => "verktyg",
+                        "title" => "Verktyg och möjligheter för utveckling.",
+                    ],
+                    [
+                        "text" => "Test",
+                        "url" => "test",
+                        "title" => "Testsida för markdown.",
+                    ],
+                    [
+                        "text" => "Blogg",
+                        "url" => "blogg",
+                        "title" => "Bildblogg.",
+                    ],
+                ],
+            ],
         ],
     ],
 ];

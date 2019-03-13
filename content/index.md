@@ -13,9 +13,7 @@ views:
 Williams Me-sida i kursen design
 =========================
 
-Välkommen till min Me-sida!
-
-[FIGURE src="image/didier.jpg" class="right" caption="Bild på Didier Drogba efter CL-finalen 2012."]
+[FIGURE src="image/didier.jpg?w300&h=400" class="right" caption="Bild på Didier Drogba efter CL-finalen 2012."]
 
 Jag heter William, är 27 år och kommer från Stockholm. Jag pluggar webbprogrammering på distans och
 ser fram emot att påbörja kursen design.
